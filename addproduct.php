@@ -5,7 +5,8 @@ include_once("conexion.php");
 // Iniciar la sesión
 session_start();
 
-// Conectarse a la base de datos
+// Conectarse a la base de datos 
+//esto es un comentario
 $con = conectar();
 
 // Construir consulta para verificar si el producto ya está en los productos del usuario
