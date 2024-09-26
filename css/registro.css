@@ -1,0 +1,78 @@
+body {
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    /* Center the image */
+    overflow: hidden;
+}
+
+.card {
+    width: 600px;
+    height: 800px;
+    background-color: rgba(249, 247, 247, 0.85);
+
+}
+
+.card label {
+    color: black;
+    font-weight: 600;
+}
+
+.texto {
+    color: black;
+    font-weight: 300;
+}
+
+.inp {
+    width: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: rgb(145, 145, 145);
+}
+
+.btn {
+    font-size: large;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color: azure;
+    width: 150px;
+    color: black;
+}
+
+
+h2 {
+    margin-top: 130px;
+    color: black;
+}
+
+.checkbox {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+@media (max-width: 767px) {
+
+    /* Estilos para pantallas de ancho menor o igual a 767px (dispositivos móviles) */
+    #formulario {
+        margin: auto;
+        margin-top: -20px;
+    }
+
+    .col-12 {
+        padding: 0;
+    }
+
+    h2 {
+        margin-top: 300px;
+    }
+
+    .card {
+
+        width: 150%;
+        height: 150%;
+        padding: 0;
+        background-color: rgba(249, 247, 247, 0.85);
+        overflow: hidden;
+        position: fixed;
+        margin: auto;
+    }
+
+}

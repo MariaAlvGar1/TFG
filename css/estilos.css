@@ -1,0 +1,187 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    color: white;
+    height: 70px;
+    width: 100%;
+    opacity: 95%;
+    z-index: 20;
+}
+
+/* Estilos para los elementos de la lista */
+.list-group-item {
+    background-color: rgba(255, 255, 255);
+    height: 200px;
+    width: 320px;
+}
+
+/* Estilo para el cuerpo de la media */
+.media-body {
+    margin: auto;
+}
+
+/* Estilo para el texto con sombra verde */
+.green-shadow {
+    text-shadow: rgb(5, 183, 56) 1px 0 10px;
+}
+
+/* Estilo para el icono de check */
+.bi-check2-square::before {
+    padding: 2px;
+    font-size: 40px;
+}
+
+/* Estilo para el fondo del cuerpo */
+body {
+    background-image: url("../img/fondo.jpg");
+    background-position: center;
+    overflow-x: hidden;
+}
+
+/* Estilo para la imagen superior de las tarjetas */
+.card-img-top {
+    height: 400px;
+}
+
+/* Estilo para los iconos */
+.iconos {
+    margin: auto;
+    margin-top: 25px;
+    width: fit-content;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    margin: auto;
+    width: 300px;
+    height: 450px;
+    border-color: rgb(46, 116, 128);
+    border-width: 2px;
+}
+
+/* Estilo para los elementos con borde redondeado */
+.rounded-circle {
+    margin-top: -25px;
+}
+
+/* Estilo para columnas de tamaño lg-2 */
+.col-lg-2 {
+    margin: auto;
+}
+
+/* Estilo para listas sin puntos */
+ul {
+    list-style-type: none;
+}
+
+/* Estilo para los títulos */
+.titles {
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilo para los botones */
+.boton {
+    margin-left: 15px;
+    height: 40px;
+}
+
+/* Estilo para el icono de cierre (equis) */
+.equis {
+    margin-top: 5px;
+    margin-left: 570px;
+    color: black;
+    position: fixed;
+}
+
+/* Estilo para el pie de página */
+footer {
+    height: 2em;
+    width: 100%;
+    background-color: white;
+    opacity: 90%;
+    color: black;
+    font-weight: 400;
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+    width: 600px;
+    height: 325px;
+}
+
+/* Estilo para los iconos grandes */
+.ic {
+    font-size: 200px;
+}
+
+/* Estilos responsivos para pantallas de ancho menor o igual a 767px (dispositivos móviles) */
+@media (max-width: 767px) {
+    .card-img-top {
+        height: 300px;
+    }
+
+    .card {
+        height: 500px;
+        margin-top: 10px;
+    }
+
+    .equis {
+        margin-top: 5px;
+        margin-left: 270px;
+        color: black;
+        position: fixed;
+    }
+
+    .modal-content {
+        width: 300px;
+        height: 500px;
+    }
+
+    .ic {
+        font-size: 150px;
+    }
+
+    .iconos {
+        margin-top: 25px;
+        width: fit-content;
+    }
+
+    .boton {
+        height: 30px;
+    }
+
+    .card:hover {
+        transform: translate3D(0, -1px, 0) scale(1.05);
+    }
+}
+
+/* Estilo para el efecto hover de las tarjetas */
+.card:hover {
+    transform: translate3D(0, -1px, 0) scale(1.05);
+}
+
+/* Estilo para el texto de cantidad en negrita */
+.amount {
+    font-weight: bold;
+}
+
+/* Estilos específicos para tablets (ancho entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card-img-top {
+        height: 400px;
+    }
+
+    .card {
+        margin: auto;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .col-lg-2 {
+        margin: auto;
+    }
+
+    .card:hover {
+        transform: translate3D(0, -1px, 0) scale(1.05);
+    }
+}
