@@ -19,6 +19,11 @@ CREATE TABLE product (
     type_id INT,
     FOREIGN KEY (type_id) REFERENCES type(type_id)
 );
+INSERT INTO product (name, brand, EAN, type_id)
+VALUES 
+    ('PRINGLES ORIGINAL', 'PRINGLES', '5053990167807', 2),
+    ('Papel higiénico Cuidado Completo Original', 'SCOTTEX', '5029053038452', 1),
+    ('SANYTOL Multiusos 750 ml', 'SANYTOL', '8411660170231', 3);
 
 CREATE TABLE user_product (
     amount INT,
